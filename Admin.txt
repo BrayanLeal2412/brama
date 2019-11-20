@@ -1,0 +1,12 @@
+﻿Nombre Proyecto:Brama
+Inregrantes: Brayan Leal Mario Arias
+
+Datos Admin
+
+Nombre:Usuario1
+Pass:1234
+
+Datos Ambiente Virtual:
+
+Profesora, ocupamos el ambiente virtual pero en cierto punto de nuestro proyecto no nos funcionó y se debió al cambio de computador ya que trabajamos en conjunto, sin embargo seguimos trabajando sin ambiente virtual.
+Sin embargo el ambiente virtual se llama: ambiente_virtual_brama

@@ -1,0 +1,26 @@
+{% extends "base_generic.html" %}
+
+
+
+{% block content %}
+
+<link href="css/styles.css" rel="stylesheet">
+<h1>Inicio</h1>
+
+  <p>Registro de <em>Pasajeros</em></p>
+
+
+<div>
+{% load static %}
+<img src="{% static 'images/avion.jpg' %}" alt="My image" style="width:800px;height:400px;"/>
+</div>  
+
+<h2></h2>
+
+  <p>Cantidad de pasajeros registrados</p>
+  <ul>
+    <li><strong>Pasajeros:</strong> {{ num_pasajeros }}</li>
+    
+  </ul>
+
+{% endblock %}
