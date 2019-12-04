@@ -19,7 +19,7 @@ def index(request):
     return render(
         request,
         'index.html',
-        context={'num_pasajeros':num_pasajeros},
+        context={'num_pasajeros':num_pasajeros, 'num_visits':num_visits},
     )
 
 
