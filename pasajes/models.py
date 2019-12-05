@@ -19,6 +19,6 @@ class Pasajero(models.Model):
         return reverse('pasajero-detail', args=[str(self.id)])
         
     def __str__(self):
-        return f'{self.primer_apellido}, ({self.primer_nombre})'
+        return f'{self.primer_apellido}, {self.primer_nombre}'
 
 # Create your models here.
